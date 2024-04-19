@@ -14,7 +14,7 @@ const scoreDisplay = document.querySelector('.score');
 const highscoreDisplay = document.querySelector('.highscore');
 
 // Update the secret number display
-secretNumberDisplay.textContent = secretNumber;
+secretNumberDisplay = secretNumber;
 
 // Add event listener to the check button
 checkBtn.addEventListener('click', () => {
@@ -28,7 +28,7 @@ checkBtn.addEventListener('click', () => {
         message.textContent = '🏆 correct Number';
         document.querySelector('body').style.backgroundColor = 'green';
         secretNumberDisplay.style.width = '10rem';
-
+        secretNumberDisplay.textContent = secretNumber;
         // Update the highscore if necessary
         if (highscoreDisplay.textContent < score) {
             highscoreDisplay.textContent = score;

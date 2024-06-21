@@ -1,0 +1,80 @@
+body {
+  background-color: rgb(64, 42, 42);
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+body .header {
+  margin: 0 30px;
+}
+body .header .again {
+  float: left;
+  background-color: white;
+  font-size: 20px;
+}
+body .header h1 {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 10vh;
+}
+body .header .between {
+  float: right;
+  font-size: 20px;
+}
+body .header .number {
+  margin: auto;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 10vh;
+  width: 20%;
+  border: 0.5px white;
+  background-color: rgb(116, 90, 90);
+}
+body .header hr {
+  margin-top: -6vh;
+}
+body .secBody {
+  margin: 0 20%;
+}
+body .secBody .right {
+  float: right;
+  font-size: 30px;
+  margin-top: -13vh;
+}
+body .secBody .left {
+  margin-top: 20px;
+}
+body .secBody .left .check {
+  background-color: white;
+  margin-left: 13px;
+  margin-top: 10px;
+  width: 20%;
+  font-size: 30px;
+}
+body .secBody .left .guess {
+  width: 25%;
+  font-size: 30px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 30px;
+  }
+  .header .again {
+    margin: 0 8%;
+    margin-top: -5%;
+  }
+  .header .between {
+    margin: 0 8%;
+    margin-top: -5%;
+  }
+  .header .number {
+    margin-top: -5%;
+  }
+  .secBody {
+    margin: 0 0;
+  }
+  .secBody .right {
+    font-size: 20;
+  }
+}/*# sourceMappingURL=style.css.map */

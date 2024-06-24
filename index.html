@@ -11,24 +11,24 @@
 </head>
 <body>
     <header>
-        <div class="header">
+        <div class="header w-100">
             <button class="btn again">Again!</button>
             <p class="between"> (Between 1 and 20 )</p>
             <h1>Guess My Number !</h1>
-            <div class="number" >?</div>
+            <div id="number" ></div>
             <hr >
         </div>
     </header>
-    <main >
-        <div class="secBody">
-            <section class="left ">
+    <main class="container">
+        <div class="secBody row">
+            <section class="left col-md-4 col-xl-5">
                 <input type="number" class="guess mt-4" /><br>
                 <button class="btn check">Check !</button>
             </section>
-            <section class="right">
+            <section class="right col-md-5 col-xl-6">
                 <p class="message">🍀 Start guessing....</p>
                 <p class="lebal-score">💯 Score : <span class="score">20</span></p>
-                <p class="label-highScore">🥇  Highscore : <span class="highscore">0</span></p>
+                <p class="label-highScore">🥇  Highscore : <span class="highscore"></span></p>
             </section>
         </div>
     </main>

@@ -50,15 +50,12 @@ checkBtn.addEventListener('click', () => {
         message.textContent = '🏆 correct Number';
         body.style.backgroundColor = 'green';
         secret.innerHTML = guess;
-        console.log('asmaa do it')
         
         // Update the highscore if necessary
         if (highscore < score) {
             highscoreDisplay.textContent = score;
-            console.log(3)
         }
         secret.style.width='15rem';
-        console.log(2)
     }
 });
 
@@ -71,8 +68,6 @@ againBtn.addEventListener('click', () => {
     body.style.backgroundColor = 'rgb(64, 42, 42)';
     guessInput.value= '';
     scoreDisplay.textContent = score;
-    console.log(4)
     secret.style.width="10rem";
-    console.log(25)
 });
 })()
